@@ -1,4 +1,4 @@
-FROM alpine:3 
+FROM mcr.microsoft.com/azure-cli:latest
 
 RUN ["/bin/sh", "-c", "apk add --update --no-cache bash ca-certificates curl git jq openssh"]
 
